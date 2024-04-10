@@ -30,7 +30,7 @@
             if (newKeyPart != null)
             {
                 return unchecked(hash + newKeyPart.GetHashCode());
-
+	}
             return hash;
         }
 
