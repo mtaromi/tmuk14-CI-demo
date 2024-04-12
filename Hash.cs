@@ -8,7 +8,6 @@
         /// This is how VB Anonymous Types combine hash values for fields.
         /// </summary>
         internal static int Combine(int newKey, int currentKey)
-        {
             return unchecked((currentKey * (int)0xA5555529) + newKey);
         }
 
