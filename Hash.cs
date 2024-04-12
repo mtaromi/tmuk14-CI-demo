@@ -11,11 +11,11 @@
         {
             return unchecked((currentKey * (int)0xA5555529) + newKey);
         }
-}
+
         internal static int Combine(bool newKeyPart, int currentKey)
         {
             return Combine(currentKey, newKeyPart ? 1 : 0);
-       }
+        }
 
         /// <summary>
         /// This is how VB Anonymous Types combine hash values for fields.
@@ -30,7 +30,7 @@
             if (newKeyPart != null)
             {
                 return unchecked(hash + newKeyPart.GetHashCode());
-	}
+	    }
             return hash;
         }
 
