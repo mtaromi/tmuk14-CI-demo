@@ -3,7 +3,7 @@
 
 name: Build and Test
 
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is using GitHub Actions
 
 on:
   push:
